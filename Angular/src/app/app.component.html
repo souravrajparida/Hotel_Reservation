@@ -1,0 +1,63 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HOTEL RESERVATION</a>
+  
+      
+        <i class="fas fa-bars"></i>
+      
+  
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+        mdbCollapse
+        
+      >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" >About Us</a>
+          
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/login" href="#">Login</a>
+          
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"routerLink="/registration" href="#">Register</a>
+          
+          </li>
+          
+          
+        </ul>
+  
+        <form class="d-flex input-group w-auto">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Type query"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light" type="button">
+            Search
+          </button>
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  
+
+
+
+
+  
+
+
+  
+
+<router-outlet></router-outlet>
