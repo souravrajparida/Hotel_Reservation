@@ -1,0 +1,35 @@
+<div>
+    <table class="table table-bordered" border="10">
+      <thead class="thead">
+<tr>
+  <th>
+   Room Type
+  </th>
+  <th>
+    Conditioning Preference
+  </th>
+  <th>
+    Checkin date
+  </th>
+  <th>
+    Checkout date
+  </th>
+ 
+  
+</tr>
+      </thead>
+      <tbody class="tbody">
+        <tr *ngFor="let booking of bookingDetails">
+          <td> {{booking.type}}</td>
+          <td> {{booking.conditioner}}</td>
+          <td> {{booking.checkin}}</td>
+          <td> {{booking.checkout}}</td>
+          <td><button type="button" class="btn btn-danger" (click)="deletebooking(booking)">Delete</button></td>
+
+
+         
+        </tr>
+         
+      </tbody>
+    </table>
+  </div>

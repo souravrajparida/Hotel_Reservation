@@ -1,0 +1,18 @@
+.container-body{
+    height: 90vh;  
+    color: #fff;
+    background-image: url("../../../assets/1.jpg");    
+    background-size: cover;
+    background-position: center;
+    margin: -16px;
+    margin-left: -80px;
+    margin-right: -80px;
+}
+h1.welcome-msg {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(15, 228, 96);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
